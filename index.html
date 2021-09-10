@@ -1,0 +1,356 @@
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>レストランのホームページ</title>
+        <meta name="description" content="レストランのホームページです">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <!-- ヘッダー -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+                <h1 class="logo"><a href="/"><img src="images/logo.png" alt="Restaurant Re:"></a></h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav001.png" width="70" height="40" alt="当店について"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav002.png" width="50" height="40" alt="メニュー"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav003.png" width="50" height="40" alt="スタッフ"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav004.png" id="s3link" width="50" height="40" alt="イベント"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/takeout.png" id="swlink" alt="テイクアウト"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav005.png" width="50" height="40" alt="アクセス"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav006.png" width="50" height="40" alt="新着情報"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#"><img src="images/nav007.png" width="40" height="40" alt="ブログ"><span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+
+                    <img src="images/tel.png" width="120" height="40" alt="Restaurant Re: 電話番号03-5734-1214" class="tel mr-sm-2">
+                    <a href="/contact" target="_blank"><img src="images/btn_header.png" width="140" height="40" alt="お問い合わせやご予約はこちらから"></a>
+                    <div class="my-2 my-sm-0 p-2 justify-content-around">
+                        <a href="https://www.facebook.com/RestaurantRe/" target="_blank"><img src="images/icon_fb.png" width="20" height="20" alt="Official Facebook" class="icon_fb"></a>
+                        <a href="https://mobile.twitter.com/re_restaurant" target="_blank"><img src="images/Twitterーicon.png" width="20" height="20" alt="Official Facebook" class="icon_fb"></a>
+                        <a href="https://www.instagram.com/restaurant.re/?hl=ja" target="_blank"><img src="images/instagram-icon.png" width="20" height="20" alt="Official Facebook" class="icon_fb"></a>
+                    </div>
+                </ul>
+                </div>
+            </nav>
+        </header>
+        <!----- main ----->
+        <main>
+        <!-- セクション１ -->
+        <div class="section firstChild active" id="section1" data-anchor="firstPage" style="height: 100%;">
+            <div class="text001 firstChild lastChild" style="display: block;">
+                <img src="images/text001.png" width="554" height="auto" alt="cuisine francaise Restaurant Re" class="firstChild lastChild empty">
+            </div>
+        </div>
+        <!-- 　セクション２ --><!--コンセプト-->
+        <div class="section active" id="section2" data-anchor="secondPage" style="height: 100%;">
+            <span id="s2viewpoint" class="firstChild">&nbsp;</span>
+            <div class="text002 lastChild" style="opacity: 1;">
+            <h1 id="ani_s2title" class="firstChild" style="opacity: 1;"><img src="images/ttl001.png" width="525" height="79" alt="À bon vin point d'enseigne. よいワインに宣伝はいらない" class="firstChild lastChild empty"></h1>
+            <p id="ani_s2tex" style="opacity: 1;">
+            </p><p>フランス料理の手法、スタイルにて、日本各地の食材や食文化のエッセンスを込めたおまかせのコース料理をご用意しております。</p>
+            <p>日本各地の郷土料理や食材の価値を再発見し、ゆかりのある土地に思いを馳せる<br class="firstChild lastChild empty">そんな場所をお客様と共に作っていきたいと考えております。</p>
+            <p>お飲み物はソムリエエクセレンス厳選のフランスワインはもちろん、日本ワインや日本酒、焼酎や日本のノンアルコールドリンクなどご用意しております。</p>
+
+            <!-- wp:tadv/classic-paragraph /--><p class="lastChild empty"></p>
+            </div>
+        </div>
+        <!-- セクション３ --><!--メニュー-->
+        <!-- <div class="slide firstChild active" id="menu-slide5" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2016/07/beef_bg.jpg&quot;); width: 20%;">
+            <div class="menuBox stfBox001-非公開: Beef firstChild lastChild">
+            <div class="left firstChild">
+            <h1 class="stfH1-非公開: Beef firstChild">
+            <img width="380" height="28" src="https://restaurant-re.net/wp-content/uploads/2016/07/beef_title.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy" srcset="https://restaurant-re.net/wp-content/uploads/2016/07/beef_title.png 380w, https://restaurant-re.net/wp-content/uploads/2016/07/beef_title-300x22.png 300w" sizes="(max-width: 380px) 100vw, 380px"></h1>
+            <div class="text stfTex-非公開: Beef"><p class="firstChild lastChild"><span id="beef-viewpoint" class="firstChild">&nbsp;</span><br class="empty"> 今回交渉の末、特別に取引が可能となり当店で提供が可能となりました。<br class="lastChild empty">幻と言われる宮古牛を是非お試しください。</p>
+            </div>
+            <p class="photo mbphoto mbphoto-非公開: Beef lastChild">
+            <img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2016/07/beeficon001.png" class="attachment-130x130 size-130x130 firstChild empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2016/07/beeficon002.png" class="attachment-130x130 size-130x130 lastChild empty" alt="" loading="lazy"></p>
+            </div>
+            <div class="right priceList-非公開: Beef lastChild">
+            <p class="firstChild"><span style="color: #ffffff;" class="firstChild lastChild"> 宮古牛とは宮古島で生まれ、<br class="firstChild lastChild empty"> 宮古島で大切に育成された「幻の高級和牛」です。</span></p>
+            <p>　</p>
+            <p class="lastChild"><span style="color: #ffffff;" class="firstChild lastChild"> ごくわずかな生産量のため、宮古島か沖縄本島の<br class="firstChild empty"> 限られた店舗でしか食べることができないこの「幻の高級和牛」は、<br class="lastChild empty"> 柔らかく甘みのあるお肉として、最高評価を受けています。</span></p></div>
+            </div>
+        </div>
+
+
+        <div class="slide" id="menu-slide1" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2014/05/bg003-1.jpg&quot;); width: 20%;">
+            <div class="menuBox stfBox001-Lunch firstChild lastChild">
+            
+            
+            <div class="left firstChild">
+            <h1 class="stfH1-Lunch firstChild">
+            <img width="525" height="68" src="https://restaurant-re.net/wp-content/uploads/2014/05/lunch.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy" srcset="https://restaurant-re.net/wp-content/uploads/2014/05/lunch.png 525w, https://restaurant-re.net/wp-content/uploads/2014/05/lunch-300x38.png 300w" sizes="(max-width: 525px) 100vw, 525px"></h1>
+            <div class="text stfTex-Lunch"><p class="firstChild lastChild"><span id="lunch-viewpoint" class="firstChild">&nbsp;</span><br class="empty"> リーズナブルな価格で、本格派フレンチをお楽しみ頂けます。<br class="lastChild empty"> お一人様、カップル、ご家族様、どんな方でもフレンチをご堪能して頂けます。</p>
+            </div>
+            <p class="photo mbphoto mbphoto-Lunch lastChild">
+            <img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/lunchiicon001.png" class="attachment-130x130 size-130x130 firstChild empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/lunchiicon002.png" class="attachment-130x130 size-130x130 empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/lunchiicon003.png" class="attachment-130x130 size-130x130 lastChild empty" alt="" loading="lazy"></p>
+            </div>
+            <div class="right priceList-Lunch lastChild">
+            <table style="height: 169px;" width="603" cellspacing="0" cellpadding="0" class="firstChild">
+            <tbody class="firstChild lastChild">
+            <tr class="odd firstChild">
+            <td class="firstChild">■木金限定ランチ　ライトコース　2,000yen&nbsp;</td>
+            <td align="right" class="lastChild">&nbsp;</td>
+            </tr>
+            <tr class="even">
+            <td class="firstChild">
+            <div class="firstChild">■ランチ&nbsp;スペシャルコース&nbsp;3,500yen</div>
+            <div class="lastChild">アミューズ２種、季節の前菜、季節の前菜２、魚料理、肉料理、<wbr class="firstChild lastChild empty">デザート</div>
+            </td>
+            <td align="right" class="lastChild">&nbsp;</td>
+            </tr>
+            <tr class="odd lastChild">
+            <td class="firstChild">
+            <div class="firstChild">■ランチ ディナーコース 7,000yen</div>
+            <div class="lastChild">シェフが贈る　ディナーフルコーススタイル</div>
+            </td>
+            <td align="right" class="lastChild">&nbsp;</td>
+            </tr>
+            </tbody>
+            </table>
+            <p class="lastChild">&nbsp;</p></div>
+            </div>
+            </div>
+
+
+            <div class="slide" id="menu-slide2" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2014/06/DSC_0105.jpg&quot;); width: 20%;">
+                <div class="menuBox stfBox001-Dinner firstChild lastChild">
+                
+                
+                <div class="left firstChild">
+                <h1 class="stfH1-Dinner firstChild">
+                <img width="525" height="68" src="https://restaurant-re.net/wp-content/uploads/2014/05/dinner.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy" srcset="https://restaurant-re.net/wp-content/uploads/2014/05/dinner.png 525w, https://restaurant-re.net/wp-content/uploads/2014/05/dinner-300x38.png 300w" sizes="(max-width: 525px) 100vw, 525px"></h1>
+                <div class="text stfTex-Dinner"><p class="firstChild lastChild"><span id="dinner-viewpoint" class="firstChild">&nbsp;</span>「和」と「洋」の融合が織りなす今までにないフレンチをご提供します。<br class="lastChild empty">もちろん、お料理にあったワインもご用意させていただいております。</p>
+                </div>
+                <p class="photo mbphoto mbphoto-Dinner lastChild">
+                <img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/dinnericon002.png" class="attachment-130x130 size-130x130 firstChild empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/dinnericon003.png" class="attachment-130x130 size-130x130 empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/lunch_002-150x1501.png" class="attachment-130x130 size-130x130 lastChild empty" alt="" loading="lazy"></p>
+                </div>
+                <div class="right priceList-Dinner lastChild">
+                <table border="0" width="100%" cellspacing="0" cellpadding="0" class="firstChild">
+                <tbody class="firstChild lastChild">
+                <tr class="odd firstChild lastChild">
+                <td class="firstChild">
+                <p class="firstChild"><strong class="firstChild">■ディナースタンダードコース 7,700</strong><strong class="lastChild">yen</strong></p>
+                <p>アミューズ、前菜1、前菜2、温菜、魚料理、今月の肉料理、デザート</p>
+                <p><strong class="firstChild lastChild">■ディナースペシャルコース 10,000yen</strong></p>
+                <p>アミューズ、魚介のカクテル、フォアグラのブリュレ、野菜の一皿、鮮魚のソテー、和牛や旬のジビエのロティ、〆の食事、デザート</p>
+                <p><strong class="firstChild lastChild">■ディナーブランド牛コース&nbsp;12,000yen</strong></p>
+                <p>アミューズ、魚介の前菜、フォアグラのブリュレ、<wbr class="firstChild empty">松阪牛イチボのスープ仕立て、オマール海老のソテー、<wbr class="empty">神戸牛サーロインのロティ、〆に松茸とうなぎのNY風ひつまぶし<wbr class="lastChild empty">、アヴァンデセール、メインデセール</p>
+                <p class="lastChild">&nbsp;</p>
+                </td>
+                <td style="text-align: right;" class="lastChild">&nbsp;</td>
+                </tr>
+                </tbody>
+                </table>
+                <p class="lastChild">&nbsp;</p></div>
+                </div>
+                </div>
+
+
+                <div class="slide" id="menu-slide3" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2014/03/bg003-3.jpg&quot;); width: 20%;">
+                    <div class="menuBox stfBox001-非公開: Bar firstChild lastChild">
+                    
+                    
+                    <div class="left firstChild">
+                    <h1 class="stfH1-非公開: Bar firstChild">
+                    <img width="525" height="68" src="https://restaurant-re.net/wp-content/uploads/2014/05/bar.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy" srcset="https://restaurant-re.net/wp-content/uploads/2014/05/bar.png 525w, https://restaurant-re.net/wp-content/uploads/2014/05/bar-300x38.png 300w" sizes="(max-width: 525px) 100vw, 525px"></h1>
+                    <div class="text stfTex-非公開: Bar"><p class="firstChild lastChild"><span id="bar-viewpoint" class="firstChild">&nbsp;</span><br class="empty">
+                    店内ワインセラー内の豊富なワインや、お客様の気分にあったカクテルをご提供します。<br class="lastChild empty">
+                    落ち着いた雰囲気で、お酒を楽しんで頂けます。</p>
+                    </div>
+                    <p class="photo mbphoto mbphoto-非公開: Bar lastChild">
+                    <img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/baricon001.png" class="attachment-130x130 size-130x130 firstChild empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/baricon002.png" class="attachment-130x130 size-130x130 empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/baricon003.png" class="attachment-130x130 size-130x130 lastChild empty" alt="" loading="lazy"></p>
+                    </div>
+                    <div class="right priceList-非公開: Bar lastChild">
+                    <table width="100%" cellspacing="0" cellpadding="0" class="firstChild">
+                    <tbody class="firstChild lastChild">
+                    <tr class="odd firstChild">
+                    <td class="firstChild">TAKOYAKI オリジナルスタイル</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="even">
+                    <td class="firstChild">鴨とフォアグラのGYOZA</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="odd">
+                    <td class="firstChild">ジビエソーセージ</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="even">
+                    <td class="firstChild">ブーダンオマール</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="odd">
+                    <td class="firstChild">自家製カレーパン</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="even">
+                    <td class="firstChild">パテドカンパーニュ</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="odd">
+                    <td class="firstChild">ホロホロ鶏のバロティーヌ</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="even">
+                    <td class="firstChild">仔羊のスパイシー煮込み</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    <tr class="odd lastChild">
+                    <td class="firstChild">自家製ベーコン2種のグリル</td>
+                    <td align="right" class="lastChild">1,000yen</td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <p class="lastChild">&nbsp;</p></div>
+                    </div>
+                    </div>
+
+
+                    <div class="slide lastChild" id="menu-slide4" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2014/05/IMG_0057.jpg&quot;); width: 20%;">
+                        <div class="menuBox stfBox001-Party firstChild lastChild">
+                        
+                        
+                        <div class="left firstChild">
+                        <h1 class="stfH1-Party firstChild">
+                        <img width="525" height="68" src="https://restaurant-re.net/wp-content/uploads/2014/05/party.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy" srcset="https://restaurant-re.net/wp-content/uploads/2014/05/party.png 525w, https://restaurant-re.net/wp-content/uploads/2014/05/party-300x38.png 300w" sizes="(max-width: 525px) 100vw, 525px"></h1>
+                        <div class="text stfTex-Party"><p class="firstChild lastChild"><span id="party-viewpoint" class="firstChild">&nbsp;</span><br class="lastChild empty">
+                        こだわりのフレンチとワインをご用意して、カクテルパーティーから結婚式の二次会まで、ご要望にあったパーティープランをご提供致します。</p>
+                        </div>
+                        <p class="photo mbphoto mbphoto-Party lastChild">
+                        <img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/partyicon001.png" class="attachment-130x130 size-130x130 firstChild empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/partyicon002.png" class="attachment-130x130 size-130x130 empty" alt="" loading="lazy"><img width="130" height="130" src="https://restaurant-re.net/wp-content/uploads/2014/05/partyicon003.png" class="attachment-130x130 size-130x130 lastChild empty" alt="" loading="lazy"></p>
+                        </div>
+                        <div class="right priceList-Party lastChild">
+                        <table width="100%" cellspacing="0" cellpadding="0" class="firstChild lastChild">
+                        <tbody class="firstChild lastChild">
+                        <tr class="odd firstChild">
+                        <td class="firstChild"><span style="text-decoration: underline;" class="firstChild lastChild"><span style="color: #99ccff;" class="firstChild lastChild"><a href="https://restaurant-re.net/partydetail/" class="firstChild lastChild"><span style="color: #99ccff; text-decoration: underline;" class="firstChild lastChild">ウェディング&nbsp;2&nbsp;次会プラン</span></a></span></span></td>
+                        <td style="text-align: right;" class="lastChild">お一人様　5,500&nbsp;円</td>
+                        </tr>
+                        <tr class="even">
+                        <td class="firstChild"><span style="text-decoration: underline;" class="firstChild lastChild"><span style="color: #99ccff;" class="firstChild lastChild"><a href="https://restaurant-re.net/partydetail/" class="firstChild lastChild"><span style="color: #99ccff; text-decoration: underline;" class="firstChild lastChild">エグゼクティブプラン</span></a></span></span></td>
+                        <td style="text-align: right;" class="lastChild">お一人様　8,000&nbsp;円</td>
+                        </tr>
+                        <tr class="odd">
+                        <td class="firstChild"><span style="text-decoration: underline;" class="firstChild lastChild"><span style="color: #99ccff;" class="firstChild lastChild"><a href="https://restaurant-re.net/partydetail/" class="firstChild lastChild"><span style="color: #99ccff; text-decoration: underline;" class="firstChild lastChild">カクテルプラン（軽食プラン）</span></a></span></span></td>
+                        <td style="text-align: right;" class="lastChild">お一人様　3,500&nbsp;円</td>
+                        </tr>
+                        <tr class="even">
+                        <td colspan="2" class="firstChild lastChild">
+                        
+                        <hr class="firstChild lastChild empty">
+                        
+                        </td>
+                        </tr>
+                        <tr class="odd">
+                        <td colspan="2" class="firstChild lastChild">＜キャンセルポリシー＞</td>
+                        </tr>
+                        <tr class="even lastChild">
+                        <td colspan="2" class="firstChild lastChild">ご利用日 1 週間前　総額より 50% ご利用日 3 日前　総額より 80% ご利用日前日、当日　100% のキャンセル料を頂戴いたします。</td>
+                        </tr>
+                        </tbody>
+                        </table></div>
+                        </div>
+                        </div>
+        -->
+
+        <!-- セクション4 --><!--スタッフ-->
+        <div class="section" id="section4" data-anchor="4thPage" style="height: 100%;">
+            <div class="slides"><div class="slidesContainer" style="width: 100%;">
+                <div class="slide firstChild lastChild active" id="staff-slide2" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2015/04/ba7065e9b832e00e6a67293dd76e4a87.jpg&quot;); width: 100%;">
+                    <div class="menuBox stfBox001-staff-slide2 firstChild lastChild" style="opacity: 1;">
+                        <span id="s4viewpoint" class="firstChild">&nbsp;</span>
+                        <div class="left">
+                            <h1 class="stfH1-staff-slide2 firstChild" style="opacity: 1;">
+                            <img width="292" height="52" src="https://restaurant-re.net/wp-content/uploads/2015/04/staff_name002.png" class="attachment- size- firstChild lastChild empty" alt="" loading="lazy"></h1>
+                                <div class="text stfTex-staff-slide2 lastChild" style="opacity: 1;"><p class="firstChild">1982年8月3日生まれ</p>
+                                    <p>栃木県日光市出身　猿そうな奴は大体友達♪</p>
+                                    <p>趣味は釣り、釣り中は話しかけても割と無視されます。美術展や写真展巡り。ワインの試飲会に至っては１日3件以上ハシゴすることもある程のワイン酒乱ぶり。最近は日本酒や焼酎に興味がある様で体が心配です。</p>
+                                    <p>特技はサクランボのヘタを口の中で結べるという自称テクニシャン</p>
+                                    <p class="lastChild">ここしばらくは夢遊病に悩まされているようで、夜中に冷蔵庫をあさる癖がある様です。冷蔵庫に鍵かけましょう。</p>
+                                </div>
+                            </div>
+                            <div class="right lastChild">
+                                <img class="stfPhoto-staff-slide2 firstChild lastChild empty" src="https://restaurant-re.net/wp-content/uploads/2015/04/ba7065e9b832e00e6a67293dd76e4a87.jpg" width="500" height="360" alt="" style="opacity: 1;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="controlArrow prev"></div>
+            <div class="controlArrow next"></div>
+        </div>
+
+        <!-- セクション5 --><!--イベント-->
+        <div class="section" id="section5" data-anchor="5thPage" style="height: 100%;">
+            <span id="s5viewpoint" class="firstChild">&nbsp;</span>
+                <div class="text004 lastChild" id="eveBox">
+                    <div class="text firstChild lastChild">
+                        <h1 id="eveH1" class="firstChild" style="opacity: 1;"><img src="images/ttl007.png" width="382" height="55" alt="À bon vin point d'enseigne. よいワインに宣伝はいらない" class="firstChild lastChild empty"></h1>
+                        <div id="eveTex" class="lastChild" style="opacity: 1;">
+                            <p class="firstChild"></p>
+                            <p>店舗イベントなどの企画が立ち上がり次第、<br class="firstChild lastChild empty">こちらにて随時インフォメーションしてまいります。</p>
+                            <p class="lastChild empty"></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- セクション6 --><!--アクセス-->
+
+        <div class="section lastChild" id="section6" data-anchor="6thPage" style="height: 100%;">
+                <span id="s6viewpoint" class="firstChild">&nbsp;</span>
+                    <div class="text005" id="accBox">
+                        <h1 class="footerTtl firstChild" id="accH1" style="opacity: 1;"><img src="images/ttl008.png" width="194" height="67" alt="Access 当店までのアクセス" class="firstChild lastChild empty"></h1>
+                            <div class="mapbox" id="accMap" style="opacity: 1;">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3242.3761948251954!2d139.70140999999998!3d35.643102000000006!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b47df4b5dd5%3A0x467da7435d8f342c!2scuisine+francaise+NARITA+YUTAKA!5e0!3m2!1sja!2sjp!4v1396513879491" width="440" height="440" frameborder="0" class="firstChild lastChild empty"></iframe>
+                            </div>
+                        <div class="accessText lastChild" id="accTex" style="opacity: 1;">
+                            <p class="mb10 firstChild">Restaurant Re:</p>
+                            <p class="mb10">03-5734-1214(定休日：月曜日・第1・2火曜日)</p>
+                            <p class="mb10">東京都目黒区中目黒1-10-23 リバーサイドテラス 103</p>
+                            <p class="mb10 lastChild">ランチ (木〜日曜日) 11:30～15:00（13:00LO)<br class="firstChild lastChild empty">ディナー 18:00～23:00</p>
+                        </div>
+                    </div>
+        </div>
+        </main>
+        <!----- /main ----->
+
+        <!----- footer ----->
+        <footer class="lastChild">
+            <h1 class="logo firstChild"><a href="index.html" class="firstChild lastChild"><img src="images/logo.png" height="40" alt="Restaurant Re:" class="firstChild lastChild empty"></a></h1>
+            <div class="copy lastChild">
+                <img src="images/copy.png" width="324" height="13" alt="Copyright © Restaurant Re: All right reserved," class="firstChild lastChild empty">
+            </div>
+        </footer>
+        <!----- /footer ----->
+    </body>
+</html>

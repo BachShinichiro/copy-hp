@@ -1,0 +1,243 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: #FFFFFFD9;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    opacity: 0.85;
+  }
+
+
+/* 1ページ目 */
+#section1 {
+  background-image : url(images/bg001.jpg );
+  background-position: right;
+} 
+
+#section1, #section2, #section3, #section4, #section5, #section6{
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.text001 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -90px 0 0 -277px;
+}
+
+/* ２ページ目 */
+
+#section2 {
+  background-image : url(images/bg002.jpg );
+  background-position :center;
+  background-size: cover;
+  position: relative;
+}
+
+.text002 h1{
+  width: 525px;
+  height: 79px;
+  margin: 80px auto 40px;
+}
+
+.text002 {
+  width: 1400px;
+  height: 800px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 1400px 1400px 0 0;
+  position: absolute;
+  bottom: -350px;
+  left: 50%;
+  margin: 0 0 0 -700px;
+}
+
+.text002 p{
+  width: 535px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 12.5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#menu-slide5{
+  background-size: cover;
+  position: relative;
+}
+
+.slide, .slidesContainer {
+  height: 100%;
+  display: block;
+}
+
+.slide {
+  float: left;
+}
+
+#section4 {
+  background-image: url(images/manager.jpg);
+}
+
+.text004 {
+  width: 700px;
+  height: 1400px;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 1400px 0 0 1400px;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  overflow: hidden;
+  margin: -700px 0 0 0;
+}
+
+#section5 {
+  background-image: url(images/bg005.jpg);
+}
+
+#section6 {
+  background-image: url(images/board.jpg);
+}
+
+.menuBox {
+  width: 100%;
+  height: 460px;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: absolute;
+  top: 50%;
+  margin: -230px 0 0 0;
+  overflow: hidden;
+}
+
+.menuBox .left {
+  width: 50%;
+  min-width: 330px;
+  padding: 0 3% 0 7%;
+  float: left;
+}
+
+.menuBox .right {
+  width: 50%;
+  min-width: 330px;
+  padding: 0 7% 0 3%;
+  float: left;
+}
+
+.menuBox .left .text {
+  max-width: 560px;
+  min-width: 330px;
+  color: #fff;
+  font-size: 12.5px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.text005 {
+  width: 960px;
+  height: 550px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -480px;
+  overflow: hidden;
+}
+
+.text004 .text {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  margin: -100px 0 0 50px;
+}
+
+.text004 .text h1 {
+  width: 525px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+
+.text004 .text p {
+  width: 535px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 12.5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
+
+
+.text005 {
+  width: 960px;
+  height: 550px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -250px 0 0 -480px;
+  overflow: hidden;
+}
+
+.text005 .accessText {
+  width: 480px;
+  height: 480px;
+  color: #fff;
+  float: left;
+  padding: 20px;
+}
+
+.text005 .mapbox {
+  width: 480px;
+  height: 480px;
+  float: left;
+  padding: 20px;
+}
+
+.text005 .footerTtl {
+  width: 194px;
+  margin: 0 auto 40px;
+}
+
+
+
+/* フッター */
+footer {
+  width: 100%;
+  height: 40px;
+  /* position: absolute; */
+  bottom: 0;
+  background-color: #fff;
+}
+
+footer h1 {
+  bottom: -13px !important;
+  /* position: absolute; */
+}
+
+footer .copy {
+  /* position: absolute; */
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -162px;
+  opacity: 0.85;
+}
+
+footer .copy {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin: 0 0 0 -162px;
+  opacity: 0.85;
+}
