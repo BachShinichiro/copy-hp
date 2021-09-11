@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="style.css">
-        <script src="main.js"></script>
+        <!-- slider-CDN読み込み -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     </head>
     <body>
         <!-- ヘッダー -->
@@ -62,15 +63,16 @@
             </nav>
         </header>
         <!----- main ----->
-        <main>
+<main class="swiper-container vertical-slider">
+    <div class="swiper-wrapper vertical-slider__wrapper">
         <!-- セクション１ -->
-        <div class="section firstChild active" id="section1" data-anchor="firstPage" style="height: 100%;">
+        <div class="section firstChild active swiper-slide vertical-slider__slide" id="section1" data-anchor="firstPage" style="height: 100%;">
             <div class="text001 firstChild lastChild" style="display: block;">
                 <img src="images/text001.png" width="554" height="auto" alt="cuisine francaise Restaurant Re" class="firstChild lastChild empty">
             </div>
         </div>
         <!-- 　セクション２ --><!--コンセプト-->
-        <div class="section active" id="section2" data-anchor="secondPage" style="height: 100%;">
+        <div class="section active swiper-slide vertical-slider__slide" id="section2" data-anchor="secondPage" style="height: 100%;">
             <span id="s2viewpoint" class="firstChild">&nbsp;</span>
             <div class="text002 lastChild" style="opacity: 1;">
             <h1 id="ani_s2title" class="firstChild" style="opacity: 1;"><img src="images/ttl001.png" width="525" height="79" alt="À bon vin point d'enseigne. よいワインに宣伝はいらない" class="firstChild lastChild empty"></h1>
@@ -283,7 +285,7 @@
         -->
 
         <!-- セクション4 --><!--スタッフ-->
-        <div class="section" id="section4" data-anchor="4thPage" style="height: 100%;">
+        <div class="section swiper-slide vertical-slider__slide" id="section4" data-anchor="4thPage" style="height: 100%;">
             <div class="slides"><div class="slidesContainer" style="width: 100%;">
                 <div class="slide firstChild lastChild active" id="staff-slide2" style="background-image: url(&quot;https://restaurant-re.net/wp-content/uploads/2015/04/ba7065e9b832e00e6a67293dd76e4a87.jpg&quot;); width: 100%;">
                     <div class="menuBox stfBox001-staff-slide2 firstChild lastChild" style="opacity: 1;">
@@ -310,7 +312,7 @@
         </div>
 
         <!-- セクション5 --><!--イベント-->
-        <div class="section" id="section5" data-anchor="5thPage" style="height: 100%;">
+        <div class="section swiper-slide vertical-slider__slide" id="section5" data-anchor="5thPage" style="height: 100%;">
             <span id="s5viewpoint" class="firstChild">&nbsp;</span>
                 <div class="text004 lastChild" id="eveBox">
                     <div class="text firstChild lastChild">
@@ -326,8 +328,8 @@
 
         <!-- セクション6 --><!--アクセス-->
 
-        <div class="section lastChild" id="section6" data-anchor="6thPage" style="height: 100%;">
-                <span id="s6viewpoint" class="firstChild">&nbsp;</span>
+        <div class="section lastChild swiper-slide vertical-slider__slide" id="section6" data-anchor="6thPage" style="height: 100%;">
+                <span id="s6viewpoint" class="firstChild"></span>
                     <div class="text005" id="accBox">
                         <h1 class="footerTtl firstChild" id="accH1" style="opacity: 1;"><img src="images/ttl008.png" width="194" height="67" alt="Access 当店までのアクセス" class="firstChild lastChild empty"></h1>
                             <div class="mapbox" id="accMap" style="opacity: 1;">
@@ -341,15 +343,18 @@
                         </div>
                     </div>
         </div>
+    </div>
+        <div class="swiper-pagination vertical-slider__pagination">
+        </div>
         </main>
         <!----- /main ----->
 
         <!----- footer ----->
-        <footer>
-            <div class="d-flex align-items-center justify-content-center mt-2">
-                <img src="images/copy.png" width="324" height="13" alt="Copyright © Restaurant Re: All right reserved," class="p-auto">
-            </div>
-        </footer>
+
         <!----- /footer ----->
+
+        <!-- slider-CDN読み込み -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="main.js"></script>
     </body>
 </html>
